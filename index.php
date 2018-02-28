@@ -15,7 +15,7 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="https://prod-jobsite-files.kenoby.com/uploads/bancovotorantim-1506106880-pref-banco-votorantim-pos-rgbjpg.jpg" />
+	<img id="logo" src="https://prod-jobsite-files.kenoby.com/uploads/bancovotorantim-1506106880-pref-banco-votorantim-pos-rgbjpg.jpg" width="450" height="200"/>
 	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"world")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
