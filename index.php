@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>OPENSHIFT Banco Votorantim</title>
+	<title>OPENSHIFT CONTAINER PLATFORM</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
@@ -15,7 +15,7 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="https://prod-jobsite-files.kenoby.com/uploads/bancovotorantim-1506106880-pref-banco-votorantim-pos-rgbjpg.jpg" width="450" height="200"/>
+	<img id="logo" src="https://medium.com/bitnami-perspectives/running-containers-in-openshift-629af79945b5" width="450" height="200"/>
 	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"world")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
